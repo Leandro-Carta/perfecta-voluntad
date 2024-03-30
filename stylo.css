@@ -84,7 +84,7 @@ ul li a:hover{
 
 .seParte h2{
     font-family: "Rubik Bubbles", system-ui;
-    color: rgb(76, 76, 76);
+    color: black;
     display: flex;
   text-decoration: underline;
     justify-content: center;
@@ -129,7 +129,7 @@ color: rgb(230, 13, 241);
     font-size: 55px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1050px) {
 
     .titulo{
     display: flex;
@@ -166,7 +166,7 @@ color: rgb(230, 13, 241);
 
 
 .quinesSomos h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
@@ -186,19 +186,32 @@ margin-bottom: 30px;
 
 
 .seParte h2 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
     margin-top: 10px;
  }
 
 
 .seParte p {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 20px;
     margin-left: 20px;
 } 
 
 
+
+#requisitos{ 
+    font-family: "Rubik Bubbles", system-ui;
+    border: 5px solid black;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+    color: rgb(193, 13, 13);
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
 
 
 }
