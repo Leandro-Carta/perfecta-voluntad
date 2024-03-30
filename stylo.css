@@ -15,14 +15,12 @@ body {
 
 
 .navegador{
-    display: flex;
-    justify-content: space-between; /* Esto separa los elementos del menú a los extremos */
+    display: flex;    
     justify-content: center;
     margin-top: 150px;
 }
 
-.navegador nav ul {
-    justify-content: space-between;
+.navegador nav ul {  
     display: flex; /* Aplica display flex al elemento <ul> dentro del <nav> */
     list-style: none; /* Quita los puntos de la lista */
   justify-content: center;
@@ -129,4 +127,78 @@ ul li a:hover{
 #requisitos:hover{
 color: rgb(230, 13, 241);
     font-size: 55px;
+}
+
+@media (max-width: 767px) {
+
+    .titulo{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+
+    .navegador nav ul li {
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+
+
+
+.imagen img {
+    width: 30%;
+}
+
+
+.quinesSomos h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.quinesSomos p{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+margin-bottom: 30px;
+} 
+
+
+
+
+
+
+
+.seParte h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+ }
+
+
+.seParte p {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+} 
+
+
+
+
 }
